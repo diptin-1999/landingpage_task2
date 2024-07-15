@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+ <nav class="navbar">
+     <div class="navdiv">
+         <div class="logo"><a href="#">Code$oft</a></div>
+         <div class="leftnav">
+          <input type="text" 
+                 name="search" 
+                 id="search">
+          <button class="btn" style="color: white; ">Search</button>
+      </div>
+         <ul>
+          <li><a href="#">internship fees</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">about</a></li>
+          <button><a href="#">SignIn</a></button>
+          <button><a href="#">SignUp</a></button>
+         </ul>
+     </div>
+ </nav>
+ <h1>Welcome to our internship portal codesoft</h1>
+ <section id="home">
+    <h2>Available Internships</h2>
+    <article>
+        <h3>Web Development Intern</h3>
+        <p>Learn and work on real projects with our experienced team. Apply now to kickstart your career in web development.</p>
+        <button>Apply Now</button>
+    </article>
+    <article>
+        <h3>Marketing Intern</h3>
+        <p>Join our marketing team to gain hands-on experience in digital marketing, content creation, and more.</p>
+        <button>Apply Now</button>
+    </article>
+    <section class="get">
+        <a href="#" class="cta-button">Get Started</a>
+    </section>
+    <footer>
+        <p>
+          &copy; 2023 Your Company. All rights reserved.<br />
+          Owner- <b>Diptirani Nahak</b> <br />
+          Web Development Internship  2024
+        </p>
+      </footer>
+
+</body>
+</html>
+**********************************************************************************************************************
+### CSS (styles.css)
+
+css
+    *{
+     text-decoration: none;
+    }
+    .navbar{
+     background: rgb(114, 113, 113);
+     font-family: Arial, Helvetica, sans-serif;
+     padding-right: 15px;
+     padding-left: 15px;
+    }
+    .navdiv{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    }
+    .logo a{
+     font-size: 35px;
+     font-weight: 600;
+     color: rgb(170, 241, 4);
+    }
+    li{
+     list-style: none;
+     display: inline-block;
+    }
+    li a{
+     color: white ;
+     font-size: 18px;
+     font-weight: bold;
+     margin-right: 25px;
+    }
+    button{
+     background-color: black;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     padding: 10px 20px; 
+     font-size: 15px;
+     margin-left: 10px;
+     
+    }
+    button a{
+     color: white;
+     font-size: 15px;
+     font-weight: bold;
+    }
+    .leftnav input[type="text"] {
+     width: 300px;
+     height: 40px; 
+     font-size: 18px; 
+     padding: 5px;
+    }
+    .leftnav .btn {
+     height: 40px; 
+     font-size: 18px; 
+     padding: 5px 10px;
+    }
+  
+     .cta-button {
+       display: inline-block;
+       padding: 10px ;
+       text-decoration: underline;
+       color: rgb(7, 1, 1);
+       border-radius: 5px;
+       font-weight: bold;
+     }
+     
+    
+
